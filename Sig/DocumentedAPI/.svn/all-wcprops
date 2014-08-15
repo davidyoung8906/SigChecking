@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/atom/!svn/ver/914/AppoBaseline/ResultParser/DocumentedAPI
+END
+DeviceID
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/atom/!svn/ver/921/AppoBaseline/ResultParser/DocumentedAPI/DeviceID
+END
+INTERNET
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/atom/!svn/ver/921/AppoBaseline/ResultParser/DocumentedAPI/INTERNET
+END
+READ_PHONE_STATE
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/atom/!svn/ver/914/AppoBaseline/ResultParser/DocumentedAPI/READ_PHONE_STATE
+END

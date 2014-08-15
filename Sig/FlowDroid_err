@@ -1,0 +1,21 @@
+./54dacf873755f45d77b2e64e56bd070718f5aaa2.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./11b0f2a63d0deafd4602be297ae37ff921aeada9.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./eab88269c6d757657a712b50e9384052beb49938.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./fe2a9cd60d335a249daf0cd2a711d2328b989e8e.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./bf3166e1388872f7f19ef2df9ae3960806a87d89.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./c9305cc8e1d2908708a49e8d9b932c2fdb952106.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./08033b1e70ba72dfc4784b0a4e1c35aed5e62ee4.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./6f18f1d3809651985a0eafdf47688d370a45f2df.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./8e281d5429631a015b79a7bc99caad1995a4c47c.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./d17f928605cdb6e47dba6ba4de29a82b47793a08.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./b5c59a6db87300c6e22603ca32695261890369d0.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./003af600bae11d6f15e4f936dd47014e608e6487.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./45ada41a1d2c8f60186eb41b15ba7a9c858e446d.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./88128f4c6edbb5a415dbc3510191e5b8b1ad2416.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./8309269f3f2cba4324346e48bf7474881090617d.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./f636d4c61555222edb9e51b0503d5f9740781ab1.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+./c25b15339b07530e5906539b0e116ddbc3f1589f.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: Type mask not found for type android.telephony.SmsMessage
+
+./1f522d9ab07fc716e7f201fad12ccea396987a83.apk/erroutput1.log:Exception in thread "pool-1-thread-2" java.lang.OutOfMemoryError: GC overhead limit exceeded
+./1f522d9ab07fc716e7f201fad12ccea396987a83.apk/erroutput1.log:java.lang.InterruptedException
+./1f522d9ab07fc716e7f201fad12ccea396987a83.apk/erroutput1.log:Exception in thread "main" java.lang.RuntimeException: There were exceptions during IDE analysis. Exiting.

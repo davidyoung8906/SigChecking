@@ -1,0 +1,25 @@
+<java.io.OutputStream: void write(byte[])> ()
+<java.io.OutputStream: void write(byte[],int,int)> ()
+<java.io.OutputStream: void write(int)> ()
+<java.io.FileOutputStream: void write(byte[])> ()
+<java.io.FileOutputStream: void write(byte[],int,int)> ()
+<java.io.FileOutputStream: void write(int)> ()
+<java.io.Writer: void write(char[])> ()
+<java.io.Writer: void write(char[],int,int)> ()
+<java.io.Writer: void write(int)> ()
+<java.io.Writer: void write(java.lang.String)> ()
+<java.io.Writer: void write(java.lang.String,int,int)> ()
+<android.util.Log: int d(java.lang.String,java.lang.String)> 
+<android.util.Log: int d(java.lang.String,java.lang.String,java.lang.Throwable)> 
+<android.util.Log: int e(java.lang.String,java.lang.String)> 
+<android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)> 
+<android.util.Log: int i(java.lang.String,java.lang.String)> 
+<android.util.Log: int i(java.lang.String,java.lang.String,java.lang.Throwable)> 
+<android.util.Log: int v(java.lang.String,java.lang.String)> 
+<android.util.Log: int v(java.lang.String,java.lang.String,java.lang.Throwable)> 
+<android.util.Log: int w(java.lang.String,java.lang.Throwable)> 
+<android.util.Log: int w(java.lang.String,java.lang.String)> 
+<android.util.Log: int w(java.lang.String,java.lang.String,java.lang.Throwable)> 
+<android.util.Log: int wtf(java.lang.String,java.lang.Throwable)> 
+<android.util.Log: int wtf(java.lang.String,java.lang.String)> 
+<android.util.Log: int wtf(java.lang.String,java.lang.String,java.lang.Throwable)> 

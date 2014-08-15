@@ -1,0 +1,7 @@
+
+-manifest /home/wyang/workspace/CommandLine/decompile_samples/GoldDream/0aa251d6ad8fb378d48d010d3ef1defe56967e35.apk/AndroidManifest.xml -ICC /home/wyang/workspace/CommandLine/epicc/RetargetDir/GoldDream/0aa251d6ad8fb378d48d010d3ef1defe56967e35.apk/intent.json -flow /home/wyang/workspace/CommandLine/FlowDroid/INFORMATION_FLOW/GoldDream/0aa251d6ad8fb378d48d010d3ef1defe56967e35.apk/erroutput1.log -result /home/wyang/workspace/CommandLine/0aa251d6ad8fb378d48d010d3ef1defe56967e35_result -apk /home/wyang/workspace/CommandLine/samples/GoldDream/0aa251d6ad8fb378d48d010d3ef1defe56967e35.apk -sdk /home/wyang/android-sdks/platforms -sig /home/wyang/workspace/AppoCheck1/ResultParser/Test/GoldDream.xml
+
+-manifest /home/wyang/workspace/CommandLine/decompile_samples/DroidKungFu1/2ac72e9b0c4cbf4e3aaaf0f3614e53dbce703bfa.apk/AndroidManifest.xml -ICC /home/wyang/workspace/CommandLine/epicc/RetargetDir/DroidKungFu1/2ac72e9b0c4cbf4e3aaaf0f3614e53dbce703bfa.apk/intent.json -flow /home/wyang/workspace/CommandLine/FlowDroid/INFORMATION_FLOW/DroidKungFu1/2ac72e9b0c4cbf4e3aaaf0f3614e53dbce703bfa.apk/erroutput1.log -result /home/wyang/workspace/CommandLine/2ac72e9b0c4cbf4e3aaaf0f3614e53dbce703bfa_result -apk /home/wyang/workspace/CommandLine/samples/DroidKungFu1/2ac72e9b0c4cbf4e3aaaf0f3614e53dbce703bfa.apk -sdk /home/wyang/android-sdks/platforms -sig /home/wyang/workspace/AppoCheck1/ResultParser/Test/DroidKungFu1.xml
+
+
+

@@ -1,0 +1,9 @@
+<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>
+<android.telephony.TelephonyManager: java.lang.String getDeviceSoftwareVersion()>
+<android.telephony.TelephonyManager: void listen(android.telephony.PhoneStateListener,int)>
+<android.telephony.TelephonyManager: java.lang.String getLine1Number()>
+<android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()>
+<android.net.ConnectivityManager: int startUsingNetworkFeature(int,java.lang.String)>
+<android.telephony.TelephonyManager: java.lang.String getVoiceMailAlphaTag()>
+<android.telephony.TelephonyManager: java.lang.String getVoiceMailNumber()>
+<android.telephony.TelephonyManager: java.lang.String getDeviceId()>

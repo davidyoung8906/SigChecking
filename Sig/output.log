@@ -1,0 +1,536 @@
+Start document
+Start element: manifest
+Attribute Name: versionCode
+Attribute Value: 1
+Attribute Name: versionName
+Attribute Value: 1.0
+Attribute Name: package
+Attribute Value: com.allen.txthej
+Start element: application
+Attribute Name: label
+Attribute Value: @string/app_name
+Attribute Name: icon
+Attribute Value: @drawable/icon
+Start element: activity
+Start element: activity
+Start element: activity
+Start element: activity
+Start element: service
+Start element: receiver
+ 
+Start element: meta-data
+Attribute Name: name
+Attribute Value: Wooboo_PID
+Attribute Name: value
+Attribute Value: f3581d02a4324338bba52dd7e4faa94a
+End element: meta-data
+Start element: meta-data
+Attribute Name: name
+Attribute Value: Market_ID
+Attribute Name: value
+Attribute Value: 1
+End element: meta-data
+Start element: meta-data
+Attribute Name: name
+Attribute Value: GH_APPKEY
+Attribute Name: value
+Attribute Value: d6a36e24c86f5ecd758629154669f343
+End element: meta-data
+End element: application
+Start element: uses-permission
+Attribute Name: name
+Attribute Value: android.permission.INTERNET
+End element: uses-permission
+Start element: uses-permission
+Attribute Name: name
+Attribute Value: android.permission.READ_PHONE_STATE
+End element: uses-permission
+Start element: uses-permission
+Attribute Name: name
+Attribute Value: android.permission.ACCESS_NETWORK_STATE
+End element: uses-permission
+Start element: uses-permission
+Attribute Name: name
+Attribute Value: android.permission.WRITE_EXTERNAL_STORAGE
+End element: uses-permission
+Start element: uses-permission
+Attribute Name: name
+Attribute Value: android.permission.ACCESS_FINE_LOCATION
+End element: uses-permission
+Start element: uses-permission
+Attribute Name: name
+Attribute Value: android.permission.READ_LOGS
+End element: uses-permission
+Start element: uses-permission
+Attribute Name: name
+Attribute Value: android.permission.WRITE_EXTERNAL_STORAGE
+End element: uses-permission
+Start element: uses-permission
+Attribute Name: name
+Attribute Value: android.permission.ACCESS_WIFI_STATE
+End element: uses-permission
+Start element: uses-permission
+Attribute Name: name
+Attribute Value: android.permission.CHANGE_WIFI_STATE
+End element: uses-permission
+End element: manifest
+com.allen.txthej
+sinkmethod: <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("TYPEdsada", "su")
+sinkComponent: StateService
+sourcemethod: <android.content.Intent: void <init>()>()
+sourceComponent: StateService
+sourcemethod: <android.telephony.TelephonyManager: java.lang.String getDeviceId()>()
+sourceComponent: Utils$PhoneState
+sinkmethod: <android.util.Log: int i(java.lang.String,java.lang.String)>("allen", $r3)
+sinkComponent: ViewFileAct_Float
+sourcemethod: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>($i0, $i1, $r1)
+sourceComponent: ViewFileAct_Float
+sinkmethod: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("Setting_Bold", $i0)
+sinkComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165188)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165187)
+sourceComponent: Settings
+sourcemethod: int
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165186)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165192)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165190)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165189)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165191)
+sourceComponent: Settings
+sinkmethod: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>("book1Name", $r2)
+sinkComponent: txtReader
+sourcemethod: <com.allen.txthej.txtReader: android.view.View findViewById(int)>(2131165185)
+sourceComponent: txtReader
+sinkmethod: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("Flip Style", $i0)
+sinkComponent: ViewFileAct_Float$2
+sourcemethod: <android.content.Intent: java.lang.String getStringExtra(java.lang.String)>("book1")
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165194)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165193)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165195)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>($i0, $i1, $r1)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <android.content.Intent: java.lang.String getStringExtra(java.lang.String)>("/sdcard/txtbooks/hej.txt")
+sourceComponent: ViewFileAct_Float
+sourcemethod: int
+sourceComponent: ViewFileAct_Float$3
+sourcemethod: int
+sourceComponent: ViewFileAct_Float$2
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.content.Intent getIntent()>()
+sourceComponent: ViewFileAct_Float
+sinkmethod: <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("book1", $r5)
+sinkComponent: txtReader
+sourcemethod: <com.allen.txthej.txtReader: android.view.View findViewById(int)>(2131165185)
+sourceComponent: txtReader
+sourcemethod: <android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/allen/txthej/ViewFileAct_Float")
+sourceComponent: txtReader
+sinkmethod: <com.eguan.state.StateService: void startActivity(android.content.Intent)>($r4)
+sinkComponent: StateService
+sourcemethod: <android.content.Intent: void <init>()>()
+sourceComponent: StateService
+sourcemethod: <android.telephony.TelephonyManager: java.lang.String getDeviceId()>()
+sourceComponent: Utils$PhoneState
+sinkmethod: <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("TYPEdsada", "set")
+sinkComponent: StateService
+sourcemethod: <android.content.Intent: void <init>()>()
+sourceComponent: StateService
+sinkmethod: <com.allen.txthej.ViewFileAct_Float: void startActivityForResult(android.content.Intent,int)>($r2, 1)
+sinkComponent: ViewFileAct_Float
+sourcemethod: <android.content.Intent: java.lang.String getStringExtra(java.lang.String)>("book1")
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165194)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165193)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165195)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>($i0, $i1, $r1)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <android.content.Intent: java.lang.String getStringExtra(java.lang.String)>("/sdcard/txtbooks/hej.txt")
+sourceComponent: ViewFileAct_Float
+sourcemethod: int
+sourceComponent: ViewFileAct_Float$3
+sourcemethod: int
+sourceComponent: ViewFileAct_Float$2
+sourcemethod: <android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/allen/txthej/Settings")
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.content.Intent getIntent()>()
+sourceComponent: ViewFileAct_Float
+sinkmethod: <android.util.Log: int i(java.lang.String,java.lang.String)>("allen", $r3)
+sinkComponent: ViewFileAct_Float
+sourcemethod: <android.content.Intent: java.lang.String getStringExtra(java.lang.String)>("book1")
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165194)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165193)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165195)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>($i0, $i1, $r1)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <android.content.Intent: java.lang.String getStringExtra(java.lang.String)>("/sdcard/txtbooks/hej.txt")
+sourceComponent: ViewFileAct_Float
+sourcemethod: int
+sourceComponent: ViewFileAct_Float$3
+sourcemethod: int
+sourceComponent: ViewFileAct_Float$2
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.content.Intent getIntent()>()
+sourceComponent: ViewFileAct_Float
+sinkmethod: <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("/sdcard/txtbooks/hej.txt", $r6)
+sinkComponent: txtReader
+sourcemethod: <com.allen.txthej.txtReader: android.view.View findViewById(int)>(2131165185)
+sourceComponent: txtReader
+sourcemethod: <android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/allen/txthej/ViewFileAct_Float")
+sourceComponent: txtReader
+sinkmethod: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("Setting_TextSize", $i0)
+sinkComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165188)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165187)
+sourceComponent: Settings
+sourcemethod: int
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165186)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165192)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165190)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165189)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165191)
+sourceComponent: Settings
+sinkmethod: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("Setting_TextCode", $i0)
+sinkComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165188)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165187)
+sourceComponent: Settings
+sourcemethod: int
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165186)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165192)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165190)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165189)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165191)
+sourceComponent: Settings
+sinkmethod: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)>($r3, $l1)
+sinkComponent: ViewFileAct_Float
+sourcemethod: <android.content.Intent: java.lang.String getStringExtra(java.lang.String)>("book1")
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165194)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165193)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165195)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>($i0, $i1, $r1)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <android.content.Intent: java.lang.String getStringExtra(java.lang.String)>("/sdcard/txtbooks/hej.txt")
+sourceComponent: ViewFileAct_Float
+sourcemethod: int
+sourceComponent: ViewFileAct_Float$3
+sourcemethod: int
+sourceComponent: ViewFileAct_Float$2
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.content.Intent getIntent()>()
+sourceComponent: ViewFileAct_Float
+sinkmethod: <java.io.OutputStream: void write(byte[],int,int)>($r3, 0, $i0)
+sinkComponent: Utils
+sourcemethod: <android.telephony.TelephonyManager: java.lang.String getDeviceId()>()
+sourceComponent: Utils$PhoneState
+sinkmethod: <com.eguan.state.StateService: void startActivity(android.content.Intent)>($r2)
+sinkComponent: StateService
+sourcemethod: <android.content.Intent: void <init>()>()
+sourceComponent: StateService
+sinkmethod: <android.util.Log: int i(java.lang.String,java.lang.String)>("allen", $r6)
+sinkComponent: ViewFileAct_Float
+sourcemethod: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>($i0, $i1, $r1)
+sourceComponent: ViewFileAct_Float
+sinkmethod: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)>($r4, "/sdcard/txtbooks/hej.txt")
+sinkComponent: txtReader
+sourcemethod: <com.allen.txthej.txtReader: android.view.View findViewById(int)>(2131165185)
+sourceComponent: txtReader
+sinkmethod: <java.io.OutputStream: void write(byte[])>($r2)
+sinkComponent: Utils$TCP
+sourcemethod: <android.telephony.TelephonyManager: java.lang.String getDeviceId()>()
+sourceComponent: Utils$PhoneState
+sinkmethod: <com.eguan.state.Dialog: void startActivity(android.content.Intent)>($r5)
+sinkComponent: Dialog$1
+sourcemethod: <com.eguan.state.Dialog: android.content.Intent getIntent()>()
+sourceComponent: Dialog
+sourcemethod: <android.content.Intent: void <init>(java.lang.String)>("com.android.settings.APPLICATION_DEVELOPMENT_SETTINGS")
+sourceComponent: Dialog$1
+sourcemethod: <android.content.Intent: android.os.Bundle getExtras()>()
+sourceComponent: Dialog
+sourcemethod: <android.os.Bundle: java.lang.String getString(java.lang.String)>("TYPEdsada")
+sourceComponent: Dialog
+sinkmethod: <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("MSG", $r11)
+sinkComponent: StateService
+sourcemethod: <android.content.Intent: void <init>()>()
+sourceComponent: StateService
+sinkmethod: <android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r2)
+sinkComponent: Receiver
+sourcemethod: <android.content.Intent: void <init>()>()
+sourceComponent: Receiver
+sourcemethod: android.content.Context
+sourceComponent: Receiver
+sinkmethod: <java.io.OutputStream: void write(byte[])>($r9)
+sinkComponent: StateService
+sourcemethod: <android.telephony.TelephonyManager: java.lang.String getDeviceId()>()
+sourceComponent: Utils$PhoneState
+sinkmethod: <android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("MSG", $r16)
+sinkComponent: StateService
+sourcemethod: <android.content.Intent: void <init>()>()
+sourceComponent: StateService
+sourcemethod: <android.telephony.TelephonyManager: java.lang.String getDeviceId()>()
+sourceComponent: Utils$PhoneState
+sinkmethod: <com.eguan.state.StateService: void startActivity(android.content.Intent)>($r2)
+sinkComponent: StateService$MyThread
+sourcemethod: <android.telephony.TelephonyManager: java.lang.String getDeviceId()>()
+sourceComponent: Utils$PhoneState
+sinkmethod: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("Setting_Bg_Color", $i1)
+sinkComponent: ViewFileAct_Float$3
+sourcemethod: <android.content.Intent: java.lang.String getStringExtra(java.lang.String)>("book1")
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165194)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165193)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.view.View findViewById(int)>(2131165195)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <android.app.Activity: void onActivityResult(int,int,android.content.Intent)>($i0, $i1, $r1)
+sourceComponent: ViewFileAct_Float
+sourcemethod: <android.content.Intent: java.lang.String getStringExtra(java.lang.String)>("/sdcard/txtbooks/hej.txt")
+sourceComponent: ViewFileAct_Float
+sourcemethod: int
+sourceComponent: ViewFileAct_Float$3
+sourcemethod: int
+sourceComponent: ViewFileAct_Float$2
+sourcemethod: <com.allen.txthej.ViewFileAct_Float: android.content.Intent getIntent()>()
+sourceComponent: ViewFileAct_Float
+sinkmethod: <android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)>("Setting_Text_Color", $i0)
+sinkComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165188)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165187)
+sourceComponent: Settings
+sourcemethod: int
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165186)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165192)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165190)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165189)
+sourceComponent: Settings
+sourcemethod: <com.allen.txthej.Settings: android.view.View findViewById(int)>(2131165191)
+sourceComponent: Settings
+sinkmethod: <com.allen.txthej.txtReader: void startActivity(android.content.Intent)>($r3)
+sinkComponent: txtReader
+sourcemethod: <com.allen.txthej.txtReader: android.view.View findViewById(int)>(2131165185)
+sourceComponent: txtReader
+sourcemethod: <android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r0, class "com/allen/txthej/ViewFileAct_Float")
+sourceComponent: txtReader
+Using '/home/wyang/android-sdks/platforms/android-4/android.jar' as android.jar
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+Callback analysis done.
+Warning: set is a phantom class!
+Warning: com.allen.txthej.set is a phantom class!
+Warning: android.view.set is a phantom class!
+Warning: android.widget.set is a phantom class!
+Warning: android.webkit.set is a phantom class!
+Warning: alpha is a phantom class!
+Warning: com.allen.txthej.alpha is a phantom class!
+Warning: android.view.alpha is a phantom class!
+Warning: android.widget.alpha is a phantom class!
+Warning: android.webkit.alpha is a phantom class!
+Found 0 layout controls in file res/layout/anim_alpha.xml
+Warning: translate is a phantom class!
+Warning: com.allen.txthej.translate is a phantom class!
+Warning: android.view.translate is a phantom class!
+Warning: android.widget.translate is a phantom class!
+Warning: android.webkit.translate is a phantom class!
+Found 0 layout controls in file res/layout/anim_l_to_r.xml
+Found 0 layout controls in file res/layout/anim_r_to_l.xml
+Warning: RelativeLayout is a phantom class!
+Warning: com.allen.txthej.RelativeLayout is a phantom class!
+Warning: android.view.RelativeLayout is a phantom class!
+Warning: Button is a phantom class!
+Warning: com.allen.txthej.Button is a phantom class!
+Warning: android.view.Button is a phantom class!
+Found unrecognized XML attribute:  text
+Warning: TextView is a phantom class!
+Warning: com.allen.txthej.TextView is a phantom class!
+Warning: android.view.TextView is a phantom class!
+Found unrecognized XML attribute:  text
+Found 2 layout controls in file res/layout/main.xml
+Found unrecognized XML attribute:  text
+Found unrecognized XML attribute:  text
+Found 2 layout controls in file res/layout/mainlarge.xml
+Found unrecognized XML attribute:  text
+Found unrecognized XML attribute:  text
+Found 2 layout controls in file res/layout/mainsmall.xml
+Warning: LinearLayout is a phantom class!
+Warning: com.allen.txthej.LinearLayout is a phantom class!
+Warning: android.view.LinearLayout is a phantom class!
+Warning: Spinner is a phantom class!
+Warning: com.allen.txthej.Spinner is a phantom class!
+Warning: android.view.Spinner is a phantom class!
+Warning: CheckBox is a phantom class!
+Warning: com.allen.txthej.CheckBox is a phantom class!
+Warning: android.view.CheckBox is a phantom class!
+Warning: SeekBar is a phantom class!
+Warning: com.allen.txthej.SeekBar is a phantom class!
+Warning: android.view.SeekBar is a phantom class!
+Found 9 layout controls in file res/layout/setting.xml
+Warning: ScrollView is a phantom class!
+Warning: com.allen.txthej.ScrollView is a phantom class!
+Warning: android.view.ScrollView is a phantom class!
+Found 12 layout controls in file res/layout/viewfile.xml
+Found 12 layout controls
+Using '/home/wyang/android-sdks/platforms/android-4/android.jar' as android.jar
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+Running incremental callback analysis for 6 components...
+Incremental callback analysis done.
+Found 12 layout controls
+Found 30 callback methods for 6 components
+Entry point calculation done.
+Running incremental callback analysis for 0 components...
+Incremental callback analysis done.
+second round from stmt: $u6#2 = $u7#8[$u5]
+Transforming net.youmi.android.aa... 
+Transforming net.youmi.android.ac... 
+Transforming net.youmi.android.ab... 
+Transforming net.youmi.android.ae... 
+Transforming net.youmi.android.ad... 
+Transforming net.youmi.android.ag... 
+Transforming net.youmi.android.af... 
+Transforming net.youmi.android.ai... 
+Transforming net.youmi.android.ah... 
+Transforming net.youmi.android.ak... 
+Transforming net.youmi.android.aj... 
+Transforming net.youmi.android.am... 
+Transforming net.youmi.android.al... 
+Transforming net.youmi.android.an... 
+Transforming net.youmi.android.ao... 
+Transforming net.youmi.android.ap... 
+Transforming net.youmi.android.aq... 
+Transforming net.youmi.android.ar... 
+Transforming net.youmi.android.as... 
+Transforming net.youmi.android.at... 
+Transforming net.youmi.android.au... 
+Transforming net.youmi.android.av... 
+Transforming net.youmi.android.aw... 
+Transforming com.allen.txthej.R$string... 
+Transforming net.youmi.android.ax... 
+Transforming net.youmi.android.ay... 
+Transforming net.youmi.android.az... 
+Transforming net.youmi.android.A... 
+Transforming net.youmi.android.B... 
+Transforming net.youmi.android.AdListener... 
+Transforming com.eguan.state.Utils$PkgManager... 
+Transforming com.allen.txthej.constantStr... 
+Transforming net.youmi.android.DialogTest... 
+Transforming com.eguan.state.StateService$MyThread... 
+Transforming net.youmi.android.AdView... 
+Transforming com.allen.txthej.R$id... 
+Transforming com.allen.txthej.ViewFileAct_Float$2... 
+Transforming com.allen.txthej.ViewFileAct_Float$3... 
+Transforming com.allen.txthej.ViewFileAct_Float$1... 
+Transforming com.allen.txthej.R$array... 
+Transforming com.eguan.state.Utils$PhoneState... 
+Transforming net.youmi.android.AdManager... 
+Transforming uk.co.lilhermit.android.core.Native... 
+Transforming com.eguan.state.Utils$1... 
+Transforming com.allen.txthej.LZWEncoder... 
+Transforming com.allen.txthej.NeuQuant... 
+Transforming net.youmi.android.b... 
+Transforming net.youmi.android.a... 
+Transforming com.eguan.state.Utils... 
+Transforming net.youmi.android.T... 
+Transforming net.youmi.android.S... 
+Transforming net.youmi.android.V... 
+Transforming net.youmi.android.U... 
+Transforming net.youmi.android.X... 
+Transforming net.youmi.android.W... 
+Transforming net.youmi.android.Z... 
+Transforming com.eguan.state.Utils$TCP... 
+Transforming com.allen.txthej.R$drawable... 
+Transforming net.youmi.android.Y... 
+Transforming com.allen.txthej.R$layout... 
+Transforming net.youmi.android.aF... 
+Transforming net.youmi.android.K... 
+Transforming net.youmi.android.aG... 
+Transforming net.youmi.android.L... 
+Transforming net.youmi.android.M... 
+Transforming net.youmi.android.N... 
+Transforming net.youmi.android.O... 
+Transforming net.youmi.android.P... 
+Transforming net.youmi.android.Q... 
+Transforming net.youmi.android.R... 
+Transforming net.youmi.android.C... 
+Transforming net.youmi.android.D... 
+Transforming net.youmi.android.E... 
+Transforming net.youmi.android.aA... 
+Transforming net.youmi.android.F... 
+Transforming net.youmi.android.aB... 
+Transforming net.youmi.android.G... 
+Transforming net.youmi.android.aC... 
+Transforming net.youmi.android.H... 
+Transforming net.youmi.android.aD... 
+Transforming net.youmi.android.I... 
+Transforming net.youmi.android.aE... 
+Transforming net.youmi.android.J... 
+Transforming net.youmi.android.v... 
+Transforming com.eguan.state.Dialog$1... 
+Transforming net.youmi.android.u... 
+Transforming net.youmi.android.t... 
+Transforming net.youmi.android.s... 
+Transforming com.eguan.state.Dialog$2... 
+Transforming net.youmi.android.z... 
+Transforming net.youmi.android.y... 
+Transforming net.youmi.android.x... 
+Transforming net.youmi.android.w... 
+Transforming net.youmi.android.m... 
+Transforming net.youmi.android.n... 
+Transforming net.youmi.android.k... 
+Transforming net.youmi.android.l... 
+Transforming net.youmi.android.q... 
+Transforming net.youmi.android.r... 
+Transforming com.allen.txthej.R$menu... 
+Transforming net.youmi.android.o... 
+Transforming net.youmi.android.p... 
+Transforming com.allen.txthej.R$attr... 
+Transforming net.youmi.android.e... 
+Transforming net.youmi.android.f... 
+Transforming net.youmi.android.c... 
+Transforming net.youmi.android.d... 
+Transforming net.youmi.android.i... 
+Transforming com.allen.txthej.R... 
+Transforming net.youmi.android.j... 
+Transforming com.eguan.state.StateService$1... 
+Transforming net.youmi.android.g... 
+Transforming net.youmi.android.h... 
+Transforming com.eguan.state.StateService... 
+Transforming com.allen.txthej.txtReader... 
+Transforming com.allen.txthej.ViewFileAct_Float... 
+Transforming com.eguan.state.Receiver... 
+Transforming com.eguan.state.Dialog... 
+Transforming com.allen.txthej.Settings... 
+Created a SourceSinkManager with 145 sources, 150 sinks, and 30 callback methods.

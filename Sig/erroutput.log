@@ -1,0 +1,397 @@
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 52 classes and 4 exclusions.
+Line does not match: <java.io.OutputStream: void <init>() -> _SOURCE_
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.00968049 seconds
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Could not find Android entry point method: int onStartCommand(android.content.Intent,int,int)
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.content.Context, because it is abstract and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod()
+    {
+        int $i0;
+        com.eguan.state.StateService $r0;
+        android.content.Intent $r1, $r8;
+        android.os.IBinder $r2;
+        com.allen.txthej.txtReader $r3;
+        android.os.Bundle $r4, $r6, $r10, $r12;
+        com.allen.txthej.ViewFileAct_Float $r5;
+        com.eguan.state.Receiver $r7;
+        com.eguan.state.Dialog $r9;
+        com.allen.txthej.Settings $r11;
+
+        $i0 = 0;
+
+     label01:
+        if $i0 == 0 goto label04;
+
+        $r0 = new com.eguan.state.StateService;
+        specialinvoke $r0.<com.eguan.state.StateService: void <init>()>();
+        virtualinvoke $r0.<com.eguan.state.StateService: void onCreate()>();
+        $r1 = new android.content.Intent;
+        specialinvoke $r1.<android.content.Intent: void <init>()>();
+        $r2 = virtualinvoke $r0.<com.eguan.state.StateService: android.os.IBinder onBind(android.content.Intent)>($r1);
+        $r1 = null;
+
+     label02:
+        if $i0 == 1 goto label03;
+
+        if $i0 == 2 goto label02;
+
+     label03:
+        virtualinvoke $r0.<com.eguan.state.StateService: void onDestroy()>();
+
+     label04:
+        if $i0 == 3 goto label07;
+
+        $r3 = new com.allen.txthej.txtReader;
+        specialinvoke $r3.<com.allen.txthej.txtReader: void <init>()>();
+        if $i0 == 4 goto label07;
+
+        $r4 = new android.os.Bundle;
+        specialinvoke $r4.<android.os.Bundle: void <init>()>();
+        virtualinvoke $r3.<com.allen.txthej.txtReader: void onCreate(android.os.Bundle)>($r4);
+        $r4 = null;
+
+     label05:
+        if $i0 == 6 goto label06;
+
+        if $i0 == 7 goto label05;
+
+     label06:
+        virtualinvoke $r3.<com.allen.txthej.txtReader: void onDestroy()>();
+
+     label07:
+        if $i0 == 9 goto label10;
+
+        $r5 = new com.allen.txthej.ViewFileAct_Float;
+        specialinvoke $r5.<com.allen.txthej.ViewFileAct_Float: void <init>()>();
+        if $i0 == 10 goto label10;
+
+        $r6 = new android.os.Bundle;
+        specialinvoke $r6.<android.os.Bundle: void <init>()>();
+        virtualinvoke $r5.<com.allen.txthej.ViewFileAct_Float: void onCreate(android.os.Bundle)>($r6);
+        $r6 = null;
+
+     label08:
+        if $i0 == 12 goto label09;
+
+        if $i0 == 13 goto label08;
+
+     label09:
+        virtualinvoke $r5.<com.allen.txthej.ViewFileAct_Float: void onDestroy()>();
+
+     label10:
+        if $i0 == 15 goto label12;
+
+        $r7 = new com.eguan.state.Receiver;
+        specialinvoke $r7.<com.eguan.state.Receiver: void <init>()>();
+        if $i0 == 16 goto label12;
+
+        $r8 = new android.content.Intent;
+        specialinvoke $r8.<android.content.Intent: void <init>()>();
+
+     label11:
+        virtualinvoke $r7.<com.eguan.state.Receiver: void onReceive(android.content.Context,android.content.Intent)>(null, $r8);
+        $r8 = null;
+        if $i0 == 17 goto label11;
+
+     label12:
+        if $i0 == 18 goto label14;
+
+        $r9 = new com.eguan.state.Dialog;
+        specialinvoke $r9.<com.eguan.state.Dialog: void <init>()>();
+        if $i0 == 19 goto label14;
+
+        $r10 = new android.os.Bundle;
+        specialinvoke $r10.<android.os.Bundle: void <init>()>();
+        virtualinvoke $r9.<com.eguan.state.Dialog: void onCreate(android.os.Bundle)>($r10);
+        $r10 = null;
+
+     label13:
+        if $i0 == 21 goto label14;
+
+        if $i0 == 22 goto label13;
+
+     label14:
+        if $i0 == 24 goto label16;
+
+        $r11 = new com.allen.txthej.Settings;
+        specialinvoke $r11.<com.allen.txthej.Settings: void <init>()>();
+        if $i0 == 25 goto label16;
+
+        $r12 = new android.os.Bundle;
+        specialinvoke $r12.<android.os.Bundle: void <init>()>();
+        virtualinvoke $r11.<com.allen.txthej.Settings: void onCreate(android.os.Bundle)>($r12);
+        $r12 = null;
+
+     label15:
+        if $i0 == 27 goto label16;
+
+        if $i0 == 28 goto label15;
+
+     label16:
+        if $i0 == 30 goto label01;
+
+        return;
+    }
+
+Could not find layout class set
+Could not find layout class alpha
+Could not find layout class set
+Could not find layout class translate
+Could not find layout class set
+Could not find layout class translate
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Could not find Android entry point method: int onStartCommand(android.content.Intent,int,int)
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.view.MenuItem, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.view.Menu, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.content.DialogInterface, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for android.content.Context, because it is abstract and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod()
+    {
+        int $i0;
+        com.eguan.state.StateService $r0;
+        android.content.Intent $r1, $r17, $r26;
+        android.os.IBinder $r2;
+        com.allen.txthej.txtReader $r3;
+        android.os.Bundle $r4, $r8, $r28, $r34;
+        android.view.KeyEvent $r5;
+        boolean $z0, $z1, $z2, $z3, $z4, $z5, $z6, $z7, $z8;
+        android.view.View $r6, $r24, $r30, $r32, $r35;
+        com.allen.txthej.ViewFileAct_Float $r7;
+        android.view.MotionEvent $r9, $r10, $r11, $r12, $r13, $r14, $r15, $r16, $r18;
+        com.allen.txthej.ViewFileAct_Float$3 $r19;
+        com.allen.txthej.ViewFileAct_Float$2 $r20;
+        net.youmi.android.AdView $r21;
+        net.youmi.android.g $r22;
+        net.youmi.android.h $r23;
+        com.eguan.state.Receiver $r25;
+        com.eguan.state.Dialog $r27;
+        com.eguan.state.Dialog$2 $r29;
+        com.eguan.state.Dialog$1 $r31;
+        com.allen.txthej.Settings $r33;
+        android.widget.SeekBar $r36;
+
+        $i0 = 0;
+
+     label01:
+        if $i0 == 0 goto label04;
+
+        $r0 = new com.eguan.state.StateService;
+        specialinvoke $r0.<com.eguan.state.StateService: void <init>()>();
+        virtualinvoke $r0.<com.eguan.state.StateService: void onCreate()>();
+        $r1 = new android.content.Intent;
+        specialinvoke $r1.<android.content.Intent: void <init>()>();
+        $r2 = virtualinvoke $r0.<com.eguan.state.StateService: android.os.IBinder onBind(android.content.Intent)>($r1);
+        $r1 = null;
+
+     label02:
+        if $i0 == 1 goto label03;
+
+        if $i0 == 2 goto label02;
+
+     label03:
+        virtualinvoke $r0.<com.eguan.state.StateService: void onDestroy()>();
+
+     label04:
+        if $i0 == 3 goto label07;
+
+        $r3 = new com.allen.txthej.txtReader;
+        specialinvoke $r3.<com.allen.txthej.txtReader: void <init>()>();
+        if $i0 == 4 goto label07;
+
+        $r4 = new android.os.Bundle;
+        specialinvoke $r4.<android.os.Bundle: void <init>()>();
+        virtualinvoke $r3.<com.allen.txthej.txtReader: void onCreate(android.os.Bundle)>($r4);
+        $r4 = null;
+
+     label05:
+        $r5 = new android.view.KeyEvent;
+        specialinvoke $r5.<android.view.KeyEvent: void <init>(int,int)>(0, 0);
+        $z0 = virtualinvoke $r3.<com.allen.txthej.txtReader: boolean onKeyDown(int,android.view.KeyEvent)>(0, $r5);
+        $r5 = null;
+        $r6 = new android.view.View;
+        specialinvoke $r6.<android.view.View: void <init>(android.content.Context)>($r3);
+        virtualinvoke $r3.<com.allen.txthej.txtReader: void onClick(android.view.View)>($r6);
+        $r6 = null;
+        if $i0 == 7 goto label05;
+
+        if $i0 == 8 goto label05;
+
+        if $i0 == 9 goto label05;
+
+        if $i0 == 10 goto label06;
+
+        if $i0 == 11 goto label05;
+
+     label06:
+        virtualinvoke $r3.<com.allen.txthej.txtReader: void onDestroy()>();
+
+     label07:
+        if $i0 == 13 goto label10;
+
+        $r7 = new com.allen.txthej.ViewFileAct_Float;
+        specialinvoke $r7.<com.allen.txthej.ViewFileAct_Float: void <init>()>();
+        if $i0 == 14 goto label10;
+
+        $r8 = new android.os.Bundle;
+        specialinvoke $r8.<android.os.Bundle: void <init>()>();
+        virtualinvoke $r7.<com.allen.txthej.ViewFileAct_Float: void onCreate(android.os.Bundle)>($r8);
+        $r8 = null;
+
+     label08:
+        $r9 = new android.view.MotionEvent;
+        specialinvoke $r9.<android.view.MotionEvent: void <init>()>();
+        $r10 = new android.view.MotionEvent;
+        specialinvoke $r10.<android.view.MotionEvent: void <init>()>();
+        $z1 = virtualinvoke $r7.<com.allen.txthej.ViewFileAct_Float: boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float)>($r9, $r10, 0.0F, 0.0F);
+        $r9 = null;
+        $r10 = null;
+        $z2 = virtualinvoke $r7.<com.allen.txthej.ViewFileAct_Float: boolean onMenuItemSelected(int,android.view.MenuItem)>(0, null);
+        $z3 = virtualinvoke $r7.<com.allen.txthej.ViewFileAct_Float: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+        $r11 = new android.view.MotionEvent;
+        specialinvoke $r11.<android.view.MotionEvent: void <init>()>();
+        $r12 = new android.view.MotionEvent;
+        specialinvoke $r12.<android.view.MotionEvent: void <init>()>();
+        $z4 = virtualinvoke $r7.<com.allen.txthej.ViewFileAct_Float: boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float)>($r11, $r12, 0.0F, 0.0F);
+        $r11 = null;
+        $r12 = null;
+        $r13 = new android.view.MotionEvent;
+        specialinvoke $r13.<android.view.MotionEvent: void <init>()>();
+        $z5 = virtualinvoke $r7.<com.allen.txthej.ViewFileAct_Float: boolean onTouchEvent(android.view.MotionEvent)>($r13);
+        $r13 = null;
+        $r14 = new android.view.MotionEvent;
+        specialinvoke $r14.<android.view.MotionEvent: void <init>()>();
+        $z6 = virtualinvoke $r7.<com.allen.txthej.ViewFileAct_Float: boolean onDown(android.view.MotionEvent)>($r14);
+        $r14 = null;
+        $r15 = new android.view.MotionEvent;
+        specialinvoke $r15.<android.view.MotionEvent: void <init>()>();
+        $z7 = virtualinvoke $r7.<com.allen.txthej.ViewFileAct_Float: boolean dispatchTouchEvent(android.view.MotionEvent)>($r15);
+        $r15 = null;
+        staticinvoke <com.allen.txthej.ViewFileAct_Float: void <clinit>()>();
+        $r16 = new android.view.MotionEvent;
+        specialinvoke $r16.<android.view.MotionEvent: void <init>()>();
+        $z8 = virtualinvoke $r7.<com.allen.txthej.ViewFileAct_Float: boolean onSingleTapUp(android.view.MotionEvent)>($r16);
+        $r16 = null;
+        $r17 = new android.content.Intent;
+        specialinvoke $r17.<android.content.Intent: void <init>()>();
+        virtualinvoke $r7.<com.allen.txthej.ViewFileAct_Float: void onActivityResult(int,int,android.content.Intent)>(0, 0, $r17);
+        $r17 = null;
+        $r18 = new android.view.MotionEvent;
+        specialinvoke $r18.<android.view.MotionEvent: void <init>()>();
+        virtualinvoke $r7.<com.allen.txthej.ViewFileAct_Float: void onLongPress(android.view.MotionEvent)>($r18);
+        $r18 = null;
+        $r19 = new com.allen.txthej.ViewFileAct_Float$3;
+        specialinvoke $r19.<com.allen.txthej.ViewFileAct_Float$3: void <init>(com.allen.txthej.ViewFileAct_Float)>($r7);
+        virtualinvoke $r19.<com.allen.txthej.ViewFileAct_Float$3: void onClick(android.content.DialogInterface,int)>(null, 0);
+        $r20 = new com.allen.txthej.ViewFileAct_Float$2;
+        specialinvoke $r20.<com.allen.txthej.ViewFileAct_Float$2: void <init>(com.allen.txthej.ViewFileAct_Float)>($r7);
+        virtualinvoke $r20.<com.allen.txthej.ViewFileAct_Float$2: void onClick(android.content.DialogInterface,int)>(null, 0);
+        $r21 = new net.youmi.android.AdView;
+        specialinvoke $r21.<net.youmi.android.AdView: void <init>(android.content.Context)>($r7);
+        $r22 = new net.youmi.android.g;
+        specialinvoke $r22.<net.youmi.android.g: void <init>(android.content.Context,net.youmi.android.AdView,int,int)>($r7, $r21, 0, 0);
+        $r23 = new net.youmi.android.h;
+        specialinvoke $r23.<net.youmi.android.h: void <init>(net.youmi.android.g)>($r22);
+        $r24 = new android.view.View;
+        specialinvoke $r24.<android.view.View: void <init>(android.content.Context)>($r7);
+        virtualinvoke $r23.<net.youmi.android.h: void onClick(android.view.View)>($r24);
+        $r24 = null;
+        if $i0 == 29 goto label08;
+
+        if $i0 == 30 goto label08;
+
+        if $i0 == 31 goto label08;
+
+        if $i0 == 32 goto label09;
+
+        if $i0 == 33 goto label08;
+
+     label09:
+        virtualinvoke $r7.<com.allen.txthej.ViewFileAct_Float: void onDestroy()>();
+
+     label10:
+        if $i0 == 35 goto label12;
+
+        $r25 = new com.eguan.state.Receiver;
+        specialinvoke $r25.<com.eguan.state.Receiver: void <init>()>();
+        if $i0 == 36 goto label12;
+
+        $r26 = new android.content.Intent;
+        specialinvoke $r26.<android.content.Intent: void <init>()>();
+
+     label11:
+        virtualinvoke $r25.<com.eguan.state.Receiver: void onReceive(android.content.Context,android.content.Intent)>(null, $r26);
+        $r26 = null;
+        if $i0 == 37 goto label11;
+
+     label12:
+        if $i0 == 38 goto label14;
+
+        $r27 = new com.eguan.state.Dialog;
+        specialinvoke $r27.<com.eguan.state.Dialog: void <init>()>();
+        if $i0 == 39 goto label14;
+
+        $r28 = new android.os.Bundle;
+        specialinvoke $r28.<android.os.Bundle: void <init>()>();
+        virtualinvoke $r27.<com.eguan.state.Dialog: void onCreate(android.os.Bundle)>($r28);
+        $r28 = null;
+
+     label13:
+        $r29 = new com.eguan.state.Dialog$2;
+        specialinvoke $r29.<com.eguan.state.Dialog$2: void <init>(com.eguan.state.Dialog)>($r27);
+        $r30 = new android.view.View;
+        specialinvoke $r30.<android.view.View: void <init>(android.content.Context)>($r27);
+        virtualinvoke $r29.<com.eguan.state.Dialog$2: void onClick(android.view.View)>($r30);
+        $r30 = null;
+        $r31 = new com.eguan.state.Dialog$1;
+        specialinvoke $r31.<com.eguan.state.Dialog$1: void <init>(com.eguan.state.Dialog)>($r27);
+        $r32 = new android.view.View;
+        specialinvoke $r32.<android.view.View: void <init>(android.content.Context)>($r27);
+        virtualinvoke $r31.<com.eguan.state.Dialog$1: void onClick(android.view.View)>($r32);
+        $r32 = null;
+        if $i0 == 42 goto label13;
+
+        if $i0 == 43 goto label13;
+
+        if $i0 == 44 goto label13;
+
+        if $i0 == 45 goto label14;
+
+        if $i0 == 46 goto label13;
+
+     label14:
+        if $i0 == 48 goto label16;
+
+        $r33 = new com.allen.txthej.Settings;
+        specialinvoke $r33.<com.allen.txthej.Settings: void <init>()>();
+        if $i0 == 49 goto label16;
+
+        $r34 = new android.os.Bundle;
+        specialinvoke $r34.<android.os.Bundle: void <init>()>();
+        virtualinvoke $r33.<com.allen.txthej.Settings: void onCreate(android.os.Bundle)>($r34);
+        $r34 = null;
+
+     label15:
+        $r35 = new android.view.View;
+        specialinvoke $r35.<android.view.View: void <init>(android.content.Context)>($r33);
+        virtualinvoke $r33.<com.allen.txthej.Settings: void onClick(android.view.View)>($r35);
+        $r35 = null;
+        $r36 = new android.widget.SeekBar;
+        specialinvoke $r36.<android.widget.SeekBar: void <init>(android.content.Context)>($r33);
+        virtualinvoke $r33.<com.allen.txthej.Settings: void onProgressChanged(android.widget.SeekBar,int,boolean)>($r36, 0, false);
+        $r36 = null;
+        if $i0 == 52 goto label15;
+
+        if $i0 == 53 goto label15;
+
+        if $i0 == 54 goto label15;
+
+        if $i0 == 55 goto label16;
+
+        if $i0 == 56 goto label15;
+
+     label16:
+        if $i0 == 58 goto label01;
+
+        return;
+    }
+
